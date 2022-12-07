@@ -1,0 +1,12 @@
+numTabu = int(input('Digite um número para ver a sua tabuada: '))
+
+print('{} * 1 = {}'.format(numTabu, numTabu*1))
+print('{} * 2 = {}'.format(numTabu, numTabu*2))
+print('{} * 3 = {}'.format(numTabu, numTabu*3))
+print('{} * 4 = {}'.format(numTabu, numTabu*4))
+print('{} * 5 = {}'.format(numTabu, numTabu*5))
+print('{} * 6 = {}'.format(numTabu, numTabu*6))
+print('{} * 7 = {}'.format(numTabu, numTabu*7))
+print('{} * 8 = {}'.format(numTabu, numTabu*8))
+print('{} * 9 = {}'.format(numTabu, numTabu*9))
+print('{} * 10 = {}'.format(numTabu, numTabu*10))
