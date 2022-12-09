@@ -1,9 +1,16 @@
-import random
+print("*********************************")
+print("Bem vindo ao jogo de Adivinhação!")
+print("*********************************")
 
-print('*************************************')
-print('Bem Vindo(a) ao jogo da adivinhação!!')
-print('*************************************')
+numero_secreto = 42
 
-numeroAleatorio = random.random(1, 10)
+chute_str = input("Digite o seu número: ")
+print("Você digitou: ", chute_str)
+chute = int(chute_str)
 
-print(numeroAleatorio)
+if (numero_secreto == chute):
+    print("Você acertou!")
+else:
+    print("Você errou!")
+
+print("Fim do jogo")
