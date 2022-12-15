@@ -35,6 +35,4 @@ while opcao != 5:
         print('Programa finalizado com sucesso!')
     else:
         print('Opção inválida. Tente novamente.')
-  
-    
    
